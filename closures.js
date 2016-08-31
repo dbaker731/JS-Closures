@@ -168,7 +168,7 @@ function timeOutCounter() {
 
   function newScope(i) {
     return function(){
-    //console.log(i)
+    console.log(i);
   }
   }
 }
